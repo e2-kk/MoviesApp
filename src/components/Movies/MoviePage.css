@@ -1,0 +1,286 @@
+.details_container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop_image_container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.98;
+}
+
+.backdrop_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 40% 22%;
+  border-radius: 10px;
+  opacity: 0.2;
+  -webkit-opacity: 0.2;
+}
+
+.movie_info_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.movie_data_container {
+  max-width: 95%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  column-gap: 4%;
+  z-index: 1;
+}
+
+.poster_image_container {
+  width: 300px;
+  height: 400px;
+}
+
+.poster_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.movie_data {
+  max-width: 68%;
+  display: flex;
+  flex-direction: column;
+}
+.movie_data h3 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.movie_tagline {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  width: 1.5%;
+  height: 4%;
+  margin-right: 0.5%;
+}
+
+.rating p,
+.runtime,
+.release_date,
+.movie_genres,
+.overview p {
+  font-size: 1.2rem;
+}
+
+.vote {
+  margin-left: 1%;
+}
+
+.movie_genres {
+  display: flex;
+  align-items: center;
+  column-gap: 2%;
+}
+
+.overview {
+  margin-top: 3%;
+}
+
+.overview h4,
+.trailer h4,
+.recomended_movies h4,
+.reviews h4 {
+  font-size: 1.5rem;
+}
+
+.trailer {
+  margin-top: 7%;
+  max-width: 100%;
+  height: 500px;
+}
+
+.trailer_iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.recomended_movies {
+  position: relative;
+  z-index: 0;
+  margin-top: 63%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 1620px) {
+  .recomended_movies {
+    margin-top: 77%;
+    margin-bottom: 6%;
+  }
+  .trailer {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .recomended_movies {
+    margin-top: 88%;
+  }
+
+  .trailer {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .recomended_movies {
+    margin-top: 95%;
+  }
+
+  .trailer {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .movie_data_container {
+    top: 18%;
+    left: 3%;
+  }
+  .movie_data h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .poster_image_container {
+    height: 320px;
+  }
+  .movie_tagline {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+
+  .rating img {
+    width: 2.5%;
+  }
+
+  .trailer {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .movie_data_container {
+    top: 2%;
+    position: relative;
+  }
+
+  .backdrop_image {
+    display: none;
+  }
+
+  .poster_image_container {
+    height: 230px;
+  }
+
+  .movie_data h3 {
+    font-size: 1rem;
+  }
+
+  .movie_tagline {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+
+  .rating p {
+    font-size: 0.7rem;
+  }
+
+  .rating img {
+    width: 3.4%;
+  }
+
+  .overview h4 {
+    margin-top: 2%;
+  }
+
+  .overview p {
+    font-size: 1.1rem;
+  }
+
+  .trailer {
+    height: 300px;
+  }
+
+  .recomended_movies {
+    margin-top: 25%;
+  }
+
+  .overview h4,
+  .trailer h4,
+  .recomended_movies h4,
+  .reviews h4,
+  .movie_genres,
+  .rating p,
+  .runtime,
+  .release_date {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .poster_image_container {
+    height: 200px;
+  }
+  .movie_data h3 {
+    font-size: 0.95rem;
+  }
+
+  .rating img {
+    width: 4.3%;
+  }
+
+  .overview p {
+    font-size: 1.05rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .poster_image_container {
+    height: 190px;
+  }
+
+  .rating img {
+    width: 5.3%;
+  }
+
+  .movie_genres {
+    font-size: 0.9rem;
+  }
+}

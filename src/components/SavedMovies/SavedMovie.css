@@ -1,0 +1,127 @@
+.likedMovie_container {
+  max-width: 65%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 2%;
+  background-color: #1b1b1b;
+  padding: 2%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+.likedMovie_image {
+  max-width: 16%;
+  min-width: 160px;
+  height: 250px;
+  min-height: 230px;
+}
+
+.likedMovie_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.likedMovie_details {
+  width: 80%;
+}
+
+.release_date {
+  opacity: 0.7;
+  font-size: 1rem;
+}
+
+.likedMovie_details p {
+  max-width: 100%;
+}
+.title_and_icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.likedMovie_details h5 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.trash {
+  width: 4%;
+  height: 6%;
+  cursor: pointer;
+}
+.star {
+  width: 2%;
+  height: 3%;
+}
+
+.star img,
+.trash img {
+  width: 100%;
+  height: 100%;
+}
+
+.likedMovie_subdetails {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.movie_overview {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .trash {
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .likedMovie_container {
+    max-width: 74%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .likedMovie_image {
+    max-width: 16%;
+    min-width: 140px;
+    height: 200px;
+    min-height: 190px;
+  }
+
+  .likedMovie_details h5 {
+    font-size: 1rem;
+  }
+  .movie_date,
+  .movie_date strong,
+  .likedMovie_subdetails p {
+    font-size: 0.85rem;
+  }
+  .star {
+    width: 4%;
+  }
+  .trash {
+    width: 7%;
+  }
+  .movie_overview {
+    font-size: 0.93rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .likedMovie_container {
+    max-width: 85%;
+  }
+  .movie_date,
+  .movie_date strong,
+  .likedMovie_subdetails p {
+    font-size: 0.78rem;
+  }
+  .trash {
+    width: 9%;
+  }
+  .star {
+    width: 7%;
+  }
+}
