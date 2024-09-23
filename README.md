@@ -43,7 +43,7 @@ React Slick - used for displays slider
 
 React Router - used for navigation
 
-React Skeleton - use for creating loading effect for content requested from APIs
+React Skeleton - used for creating loading effect for content requested from APIs
 
 #### Data Source: 
 TMDB database
