@@ -26,6 +26,8 @@ Users are able to login through account on TMDB
 
 Watchlist is obtained from users account data in TMDB database
 
+User-friendly webapp design for mobile devices
+
 ## Technical Overview
 
 #### Languages: 
