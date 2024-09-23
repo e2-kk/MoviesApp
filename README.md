@@ -41,7 +41,7 @@ React Router - used for navigation
 
 React Skeleton - use for creating loading effect for content requested from APIs
 
-##### Data Source: TMDB
+#### Data Source: TMDB
 
 ## Link to LIVE project: 
 https://66f1c8dbfbcbec08230ee8a0--moviesfindingapp.netlify.app/
