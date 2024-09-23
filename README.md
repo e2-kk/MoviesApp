@@ -22,6 +22,10 @@ Movie can be searched by its title, director or actor
 
 Movies in the watchlist can be sorted by rating, release date
 
+Users are able to login through account on TMDB
+
+Watchlist is obtained from users account data in TMDB database
+
 ## Technical Overview
 
 #### Languages: 
@@ -41,7 +45,8 @@ React Router - used for navigation
 
 React Skeleton - use for creating loading effect for content requested from APIs
 
-#### Data Source: TMDB
+#### Data Source: 
+TMDB database
 
 ## Link to LIVE project: 
 https://66f1c8dbfbcbec08230ee8a0--moviesfindingapp.netlify.app/
