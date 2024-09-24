@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./MovieCard.css";
 import heart from "../../assets/red-heart.svg";
 import star from "../../assets/star.png";
+import notfoundPoster from "../../assets/missing_poster.png";
 
 const MovieCard = ({ movie, handleLike }) => {
   const navigate = useNavigate();
@@ -21,7 +22,11 @@ const MovieCard = ({ movie, handleLike }) => {
           <div className="movie_poster_container">
             <img
               id="movie_poster"
-              src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+              src={
+                movie.poster_path !== null
+                  ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                  : notfoundPoster
+              }
             ></img>
           </div>
 

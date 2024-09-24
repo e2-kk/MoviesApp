@@ -53,7 +53,7 @@ const MoviePage = () => {
 
   //filter similar movies
 
-  console.log(reviews);
+  console.log(similarMovies);
 
   //define settings for similar movies slider
   const settings = {
