@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# MovieFinder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Current Features:
 
-## Available Scripts
+Displays popular movies in general, of the week and streaming in cinemas at the moment
 
-In the project directory, you can run:
+Movies are searched within categories
 
-### `npm start`
+Movies are sorted using filtering options
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Multiple pages of movies are available
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Loading effect is displayed until movies data is rendered
 
-### `npm test`
+Movies are saved to watchlist
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Watchlist is stored in the users local storage
 
-### `npm run build`
+## Future Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Movie can be searched by its title, director or actor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Movies in the watchlist can be sorted by rating, release date
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Users are able to login through account on TMDB
 
-### `npm run eject`
+Watchlist is obtained from users account data in TMDB database
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+User-friendly webapp design for mobile devices
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technical Overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Languages: 
+HTML, CSS, JSX
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Libraries:
 
-## Learn More
+React.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Axios - used for handling API requests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React Toastify - used for displaying notifications
 
-### Code Splitting
+React Slick - used for displays slider
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React Router - used for navigation
 
-### Analyzing the Bundle Size
+React Skeleton - used for creating loading effect for content requested from APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Data Source: 
+TMDB database
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Link to LIVE project: 
+https://66f1c8dbfbcbec08230ee8a0--moviesfindingapp.netlify.app/
