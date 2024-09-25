@@ -51,4 +51,4 @@ React Skeleton - used for creating loading effect for content requested from API
 TMDB database
 
 ## Link to LIVE project: 
-https://66f1c8dbfbcbec08230ee8a0--moviesfindingapp.netlify.app/
+https://66f3253b40593440941b4a58--moviesfindingapp.netlify.app/all_movies
