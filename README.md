@@ -28,6 +28,8 @@ Watchlist is obtained from users account data in TMDB database
 
 User-friendly webapp design for mobile devices
 
+Saved movies in the watchlist can be seen in the all movies list
+
 ## Technical Overview
 
 #### Languages: 
